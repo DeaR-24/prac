@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Derek Vega </title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Knight
+  * Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+  * Updated: Oct 16 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo-ojo.png" alt="">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#featured-services">Servicios</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#faq">Contáctame</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.linkedin.com/in/derek-vega-a59a82280/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container text-center">
+        <div class="row justify-content-center" data-aos="zoom-out">
+          <div class="col-lg-8">
+            <img src="assets/img/logo-ojo.png" alt="" class="img-fluid mb-3">
+            <h2>Derek Vega</h2>
+            <p>Diseñador Ux</p>
+            <a href="#about" class="btn-get-started">Conoce más sobre mí</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre mí</h2>
+        <p>Me apasiona la creatividad y la capacidad de poner al usuario en el centro de cada proceso</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <img src="assets/img/perfil-derek1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 content">
+            <h3>Hola, soy Derek Huapaya Vega </h3>
+            <p class="fst-italic">
+              Soy un joven estudiante en la carrera Diseño UX, con una formación enfocada en comunicar mensajes de alto impacto y crear experiencias  centradas en el usuario.
+            </p>
+            <p>Mis principales skills:</p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Diseño Ux.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Diseño Wed.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Diseño App.</span></li>
+            </ul>
+            <p>
+              Tener la oportunidad de dar vida a ideas a través del contenido digital y ver cómo impacta en la audiencia es increíblemente gratificante.
+            </p>
+            <div class="container-btn">
+              <a class="cta-btn about-btn" href="/derek-prac-cv.pdf" target="_blank">Descarga mi CV</a>
+              <a class="cta-btn about-btn linkedin-btn" href="https://www.linkedin.com/in/derek-alexis-huapaya-vega-a59a82280" target="_blank">Mi LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/01.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/02.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/03.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/04.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/05.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/06.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/07.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/08.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>¿Cómo puedo ayudarte?</h2>
+        <p>Me involucro en cada etapa del proceso para asegurar que cada detalle esté alineado con tus objetivos estratégicos.</p>
+      </div><!-- End Section Title -->
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="parallax call-to-action section dark-background">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>¿Necesitas de mis servicios?</h3>
+            <p>Tengo una sólida capacidad para resolver problemas, prestar atención a los detalles y comprender las necesidades del usuario. Además, soy muy adaptable y estoy comprometido/a con aprender rápidamente y aplicar las mejores prácticas de UX.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href=https://wa.me/+51902153190  target="_blank">Contáctame</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Mi portafolio</h2>
+        <p>Conoce mis mejores trabajos.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Todos</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-all">
+              <img src="assets/img/masonry-portfolio/portafolio-logo.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Logo Dusupet</h4>
+                <p>Landing Page</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio/portfolio-01.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-all">
+              <img src="assets/img/masonry-portfolio/portafolio-app.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>APP Movil</h4>
+                <p>Landing Page</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-all">
+              <img src="assets/img/masonry-portfolio/portafolio-id.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Revista</h4>
+                <p>Landing Page</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-all">
+              <img src="assets/img/masonry-portfolio/portafolio-ps.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Photoshop</h4>
+                <p>Landing Page</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-all">
+              <img src="assets/img/masonry-portfolio/portafolio-wed.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mi primera landing</h4>
+                <p>Landing Page</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-all">
+              <img src="assets/img/masonry-portfolio/mano-maestra.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mano Maestra</h4>
+                <p>Landing Page</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Preguntas frecuentes</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>¿Qué tipo de servicios ofreces?</h3>
+                <div class="faq-content">
+                  <p>Ofrezco una variedad de servicios enfocados en la creación de contenido web, optimización de la experiencia de usuario (UX), y estrategias de marketing digital.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>¿Tienes experiencia trabajando con grandes marcas?</h3>
+                <div class="faq-content">
+                  <p>Si bien no tengo experiencia directa en UX y trabajando con grandes marcas, he tenido la oportunidad de colaborar en varios proyectos donde la prioridad era entender y mejorar la experiencia del usuario final.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>¿Qué tan importante es la optimización SEO en tus servicios?</h3>
+                <div class="faq-content">
+                  <p>La optimización SEO es un pilar fundamental en mis servicios. Cada pieza de contenido que creo está pensada para mejorar el posicionamiento en los motores de búsqueda, atrayendo más tráfico orgánico y mejorando la visibilidad de las marcas en línea. Realizo una investigación exhaustiva de palabras clave y aplico mejores prácticas SEO en todos los proyectos, asegurando que cada página o artículo tenga el máximo impacto posible.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>¿Cómo garantizas una buena experiencia de usuario (UX) en los proyectos?</h3>
+                <div class="faq-content">
+                  <p>Me enfoco en diseñar contenido y páginas web que sean intuitivas y fáciles de navegar. Al trabajar con principios de UX writing, me aseguro de que cada palabra y cada elemento visual guíen al usuario de manera clara y eficiente. Además, realizo auditorías de UX y aplico recomendaciones para mejorar la interacción y satisfacción del usuario, lo que contribuye a una experiencia más fluida y atractiva.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <br>
+              <div class="container-btn">
+                <a class="cta-btn about-btn" href="https://www.linkedin.com/in/derek-vega-a59a82280/" target="_blank">Mi LinkedIn</a>
+                <a class="cta-btn about-btn linkedin-btn" href="https://api.whatsapp.com/send?phone=+51920072561&text=Hola%20quiero%20m%C3%A1s%20info%20sobre%20tu%20trabajo%20como%20consultor%20de%20dise%C3%B1o%20estrat%C3%A9gico%20%F0%9F%A4%A9%F0%9F%9A%80" target="_blank">Contáctame</a>
+              </div>
+            </div>
+
+          </div><!-- End Faq Column-->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/faq.jpg" alt="">
+            <div class="faq-container">
+
+            </div>
+
+          </div><!-- End Faq Column-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    
+    <div class="container copyright text-center mt-4">
+      <div>
+        <div class="footer-contact pt-3">
+          <img src="assets/img/logo-ojo.png" alt="">
+        </div>
+          <br>
+        <div>
+          <p>Lima | Perú</p>
+          <p class="mt-3"><strong>+51 902 153 190</strong></p>
+          <p><strong>derekvega.ds@gmail.com</strong></p>
+        </div>
+        <br>
+      </div>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Derek Vega</strong><span>l Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="" target="_blank">Derek Vega </a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
